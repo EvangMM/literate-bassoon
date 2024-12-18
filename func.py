@@ -1,5 +1,3 @@
-%%writefile func.py
-
 from digitalhub_runtime_python import handler
 import pandas as pd
 
