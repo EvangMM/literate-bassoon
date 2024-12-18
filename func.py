@@ -8,6 +8,7 @@ def init(context):
 @handler(outputs=["aa", "test"])
 def downloader(di, col: str, project):
 
+    print("tttttttt")
     data = {col: [1,2,3]}
     df = di.as_df()
     
